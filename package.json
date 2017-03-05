@@ -1,0 +1,25 @@
+{
+  "name": "learning-react-auth-server",
+  "version": "1.0.0",
+  "description": "Authentication server (for learning purpose)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mt26691/learning-react-auth-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mt26691/learning-react-auth-server/issues"
+  },
+  "homepage": "https://github.com/mt26691/learning-react-auth-server#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "jwt-simple": "^0.5.1",
+    "nodemon": "^1.11.0"
+  }
+}
