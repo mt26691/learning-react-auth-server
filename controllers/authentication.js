@@ -13,7 +13,11 @@ function tokenForUser(user) {
         iat: timeStamp
     }, config.secret);
 }
-
+exports.signin = function (req, res, next) {
+    //user has already had theri email and password auth'does
+    //we just need to give them a token
+    res.send({token:tokenForUser(req.user)})
+}
 exports.signup = function (req, res, next) {
     const email = req.body.email;
     const password = req.body.password;
